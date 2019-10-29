@@ -5,6 +5,7 @@ class RetiredForagerBee extends ForagerBee {
     this.job = 'gamble';
     this.canFly = false;
     this.color = 'grey';
+    this.treasureChest = [];
   }
 
   forage() {
