@@ -5,4 +5,8 @@ class HoneyMakerBee extends Bee {
     this.job = 'make honey';
     this.honeyPot = 0;
   }
+
+  makeHoney() {
+    this.honeyPot++;
+  }
 };
